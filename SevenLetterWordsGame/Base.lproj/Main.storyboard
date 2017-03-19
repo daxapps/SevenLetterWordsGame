@@ -33,6 +33,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <state key="normal" title="Submit"/>
+                                        <connections>
+                                            <action selector="submitTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gYd-9U-y7A"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A6-Pc-7QR">
                                         <rect key="frame" x="105" y="0.0" width="75" height="44"/>
@@ -42,6 +45,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <state key="normal" title="Clear"/>
+                                        <connections>
+                                            <action selector="clearTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="83d-5Y-qK2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -350,6 +356,12 @@
                             <constraint firstItem="vC8-47-ctf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z2I-yX-Syi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answersLabel" destination="ulr-uB-DaU" id="rqZ-lb-yv9"/>
+                        <outlet property="cluesLabel" destination="bVo-3o-5uj" id="zG2-5N-8B5"/>
+                        <outlet property="currentAnswer" destination="B2i-6b-4a3" id="syw-3x-Z7h"/>
+                        <outlet property="scoreLabel" destination="Rku-71-bg4" id="KdB-xP-yiW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
