@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E04D73F51E7EB770008DDCFC /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = E04D73F31E7EB770008DDCFC /* level1.txt */; };
+		E04D73F61E7EB770008DDCFC /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = E04D73F41E7EB770008DDCFC /* level2.txt */; };
 		E071D1711E7C351200F31614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E071D1701E7C351200F31614 /* AppDelegate.swift */; };
 		E071D1731E7C351200F31614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E071D1721E7C351200F31614 /* ViewController.swift */; };
 		E071D1761E7C351200F31614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E071D1741E7C351200F31614 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E04D73F31E7EB770008DDCFC /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		E04D73F41E7EB770008DDCFC /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		E071D16D1E7C351200F31614 /* SevenLetterWordsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenLetterWordsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E071D1701E7C351200F31614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E071D1721E7C351200F31614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 				E071D1741E7C351200F31614 /* Main.storyboard */,
 				E071D1771E7C351200F31614 /* Assets.xcassets */,
 				E071D1791E7C351200F31614 /* LaunchScreen.storyboard */,
+				E04D73F31E7EB770008DDCFC /* level1.txt */,
+				E04D73F41E7EB770008DDCFC /* level2.txt */,
 				E071D17C1E7C351200F31614 /* Info.plist */,
 			);
 			path = SevenLetterWordsGame;
@@ -181,7 +187,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04D73F61E7EB770008DDCFC /* level2.txt in Resources */,
 				E071D17B1E7C351200F31614 /* LaunchScreen.storyboard in Resources */,
+				E04D73F51E7EB770008DDCFC /* level1.txt in Resources */,
 				E071D1781E7C351200F31614 /* Assets.xcassets in Resources */,
 				E071D1761E7C351200F31614 /* Main.storyboard in Resources */,
 			);
@@ -414,6 +422,7 @@
 				E071D18C1E7C351200F31614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E071D18D1E7C351200F31614 /* Build configuration list for PBXNativeTarget "SevenLetterWordsGameTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				E071D18F1E7C351200F31614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
